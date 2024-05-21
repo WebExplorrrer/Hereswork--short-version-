@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Font for headings */
+.font1 {
+    font-family: 'Londrina Solid', cursive;
+}
+
+/* Font for paragraphs */
+.font2 {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* NAV BAR START HERE */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 88px;
+    background-color: #272630;
+}
+
+/* STYLE FOR LOGO TEXT */
+.logo-text {
+    display: flex;
+    align-items: center;
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    font-size: 24px;
+    gap: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+/* STYLE FOR NAV LINKS */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    color: #445DD8;
+}
+/* NAV BAR ENDS HERE */
+
+/* HERO SECTION START HERE */
+.hero {
+    display: flex;
+    /* gap: 32px; */
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 88px;
+    padding-right: 88px;
+    background: #F7CF4C;
+}
+
+/* LEFT SIDE START HERE */
+.left-side {
+    width: 50%;
+}
+
+.heading {
+display: flex;
+gap: 8px;
+}
+
+.text-about {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.learn-about-stroke {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-text{
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.styled-line {
+    border: none;
+    border-top: 2px solid #445DD8;
+    margin: 20px 0;
+    width: 117px;
+}
+  
+.sub-hero {
+    color: #141414;
+    font-family: "Lexend Deca";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+/* THE TWO BUTTONS */
+.hero-button{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+/* FIRST BUTTON */
+.about-button {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: #445DD8; 
+    padding: 12px 48px;
+    font-size: 18px;
+    display: inline-block;
+    border: 2px solid #48474B;
+    background: #445DD8;
+    box-shadow: 3px 3px 0px 0px #191919;
+    color: #FFF;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+}
+
+.about-button:hover {
+    background-color: #3549a3;
+    box-shadow:none;
+}
+
+/* SECOND BUTTON */
+.View-skills {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: #445DD8; 
+    padding: 12px 48px;
+    font-size: 18px;
+    display: inline-block;
+    border: 2px solid #48474B;
+    background: #FFF;
+    box-shadow: 3px 3px 0px 0px #191919;
+    color: #445DD8;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+}
+
+.View-skills:hover {
+    background-color: #3549a3;
+    box-shadow:none;
+    color: #FFF;
+}
+
+/* RIGHT SIDE STARTS HERE */
+.right-side {
+    width: 50%;
+}
+
+
+/* MAIN SECTION STARTS HERE */
+/* FIRST SECTION */
+.first {
+    margin-left: 88px;
+    margin-right: 88px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    
+}
+
+.mission-expansion{
+    display: flex;
+    align-items: flex-start;
+    /* align-self: stretch; */
+    margin-top: 32px;
+    gap: 2%;
+    justify-content: space-between;
+}
+
+.mission-expansion > *{
+    width: 32%;
+}
+
+.mission-heading {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.our-goals {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 16px;
+align-items: center;
+padding-top: 0;
+padding-bottom: 0;
+margin-top: 0%;
+}
+
+.text-about{
+    color: #445DD8;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.mission-text {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+
+
+}
+/* IMAGE EXPANSION */
+
+/* .mission-expansion {
+    gap: 16px;
+} */
+
+/* EMPOWERMENT GROUP */
+.image-frame {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.empowerment {
+    display: flex;
+    align-items: top;
+    gap: 40px;
+}
+
+.empower-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+/* HIGH QUALITY */
+
+.high-quality-resources {
+    display: flex;
+    align-items: top;
+    gap: 40px;
+}
+
+.quality-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+/* ACCESSIBILITY */
+
+.accesibility {
+    display: flex;
+    align-items: top;
+    gap: 40px;
+}
+
+.access-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+/* SECOND SECTION */
+/* .second {} */
+.learn-stroke {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.learn-about-farme {
+    color: #445DD8;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    text-transform: uppercase;
+}
+
+.about-us-text{
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+}
