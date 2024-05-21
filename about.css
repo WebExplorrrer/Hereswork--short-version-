@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Lexend Deca", sans-serif;
+}
+section{
+    padding: 3% 5%;
+}
+h1,h2,h3,h4{
+    font-family: "Londrina Solid", sans-serif;
+    color: #141414;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    background-color: #272630;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5%; */
+    align-items: center;
+    padding: 1% 5%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 32px;
+    color: white;
+}
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.nav-link{
+    font-size: 24px;
+    color: white;
+    margin: 0 2%;
+    white-space: nowrap;
+}
+.nav-bar .active{
+    border-bottom: 1px solid white;
+}
+
+.hero-sec{
+    height: 60vh;
+    background-color: #f7cf4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-sec h1{
+    font-size: 64px;
+    margin-bottom: 1%;
+}
+.hero-sec p{
+    text-transform: capitalize;
+}
+
+.lau-sec{
+    background-color: #F6F6F6;
+    display: flex;
+    gap: 5%;
+}
+.lau-sec-left{
+    height: 100%;
+    width: 30%;
+}
+.lau-sec-left img, .lau-services-thumb img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+
+.lau-sec-right .lau-sec-superscript{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    color: #445DD8;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+.lau-sec-superscript hr{
+    width: 35%;
+    border: 1px solid #445DD8;
+}
+.lau-sec .lau-services{
+    margin-top: 5%;
+    display: flex;
+    gap: 5%;
+}
+.lau-service{
+    display: flex;
+    align-items: center;
+}
