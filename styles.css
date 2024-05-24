@@ -192,7 +192,6 @@ gap: 8px;
     width: 50%;
 }
 
-
 /* MAIN SECTION STARTS HERE */
 /* FIRST SECTION */
 .first {
@@ -217,20 +216,20 @@ gap: 8px;
 }
 
 .mission-heading {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .our-goals {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-gap: 16px;
-align-items: center;
-padding-top: 0;
-padding-bottom: 0;
-margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0%;
 }
 
 .text-about{
@@ -246,18 +245,11 @@ margin-top: 0%;
 .mission-text {
     color: #141414;
     font-family: "Londrina Solid";
-    font-size: 32px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
-
-
 }
-/* IMAGE EXPANSION */
-
-/* .mission-expansion {
-    gap: 16px;
-} */
 
 /* EMPOWERMENT GROUP */
 .image-frame {
@@ -281,7 +273,6 @@ margin-top: 0%;
 }
 
 /* HIGH QUALITY */
-
 .high-quality-resources {
     display: flex;
     align-items: top;
@@ -297,7 +288,6 @@ margin-top: 0%;
 }
 
 /* ACCESSIBILITY */
-
 .accesibility {
     display: flex;
     align-items: top;
@@ -313,7 +303,18 @@ margin-top: 0%;
 }
 
 /* SECOND SECTION */
-/* .second {} */
+.second {
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    padding: 88px;
+    background-color:#F6F6F6;;
+}
+
+.about-section-right {
+    gap: 32px;
+}
+
 .learn-stroke {
     display: flex;
     align-items: center;
@@ -333,8 +334,488 @@ margin-top: 0%;
 .about-us-text{
     color: #141414;
     font-family: "Londrina Solid";
-    font-size: 32px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
+}
+
+.about-section-sub {
+    color: #667085;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    padding-top: 2%;
+}
+
+.courses-section {
+    display: flex;
+    gap: 4%;
+    margin-top: 4%;
+    padding-bottom: 4%;
+}
+
+.main-check-group{
+    padding-bottom: 0.5%;
+
+}
+
+.all-checks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+/* FIRST CHECK */
+.first-check {
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.check-group-one {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-bottom: 0.8%;
+}
+
+.second-check {
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.check-group-two{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-bottom: 0.8%;
+}
+
+.course-line{
+    border: none;
+    border-top: 2px solid #ADADAD; 
+    width: 378.5px;
+}
+
+.third-check {
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.check-group-three {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-bottom: 0.8%;
+}
+
+/* SECOND SECTION STARTS HERE */
+.third {
+    margin-left: 88px;
+    margin-right: 88px;
+    padding-top: 88px;
+}
+
+.library-topic-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.text-library {
+    color: #445DD8;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.resources-text {
+    color: #141414;
+    text-align: center;
+    font-family: "Londrina Solid";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+.heading-resources-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GROUP CARDS */
+.group-cards {
+    display: flex;
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* FIRST CARD */
+.first-card{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border: 2px solid #48474B;
+    background: #7FE1AA;
+    box-shadow: 3px 3px 0px 0px #191919;
+}
+
+.educational-text {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.par-res-text {
+    color: #48474B;
+    font-family: "Lexend Deca";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    align-self: stretch;
+}
+
+/* SECOND CARD */
+.second-card{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border: 2px solid #48474B;
+    background: #F7CF4C;;
+    box-shadow: 3px 3px 0px 0px #191919;
+}
+
+.career-text {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.career-sub-text{
+    color: #48474B;
+    font-family: "Lexend Deca";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    align-self: stretch;
+}
+
+/* FOURTH SECTION */
+.fourth{
+    display:flex;
+    flex-direction: row;
+    padding: 88px;
+    align-items: center;
+}
+
+.level-up {
+    position: relative;
+    display: flex;
+    width: 838px;
+    padding: 56px 200px 56px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border: 1px solid #48474B;
+    background: #FFF;
+    box-shadow: 3px 3px 0px 0px #191919;
+}
+
+.level-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+.text-hereswork{
+    color: #445DD8;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    text-transform: uppercase;
+}
+
+.hereswork-stroke-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* .level-text-group {
+    background-color: red; */
+
+.level-checks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+}
+
+.heading-sub-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.level-text {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.level-section-sub {
+    color: #667085;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    align-self: stretch;
+}
+
+.register-now {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: #445DD8; 
+    padding: 12px 48px;
+    font-size: 18px;
+    display: inline-block;
+    border: 2px solid #48474B;
+    background: #445DD8;
+    box-shadow: 3px 3px 0px 0px #191919;
+    color: #FFF;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+}
+    
+.register-now:hover {
+    background-color: #3549a3;
+    box-shadow:none;
+    color: #FFF;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px;
+}
+
+form div label {
+    color: #667085;
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+
+form div input  {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background: #FFF;
+    box-shadow: 3px 3px 0px 0px #191919;
+    width: 400px;
+}
+
+.registration {
+    position: absolute;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: #F6F6F6;
+    right: 100px;
+}
+
+.register-button {
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border: 2px solid var(--Stroke, #191919);
+    background: #445DD8;
+    box-shadow: 3px 3px 0px 0px #191919;
+    color: white;
+    text-decoration: none;
+    margin-top: 32px;
+}
+
+/* FOOTER */
+/* FIRST */
+.footer {
+    display: flex;
+    padding: 32px 88px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #272630;
+    }
+
+.footer-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.made-love {
+    color: #F2F2F2;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.copyrights {
+    color: #F2F2F2;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+/* SECOND */
+.footer-second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.follow-second {
+    color: #F7CF4C;
+    font-family: "Londrina Solid";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* THIRD */
+.footer-third {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.get-in-touch {
+    color: #F7CF4C;
+    font-family: "Londrina Solid";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.email-address {
+    color: #F2F2F2;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* FOURTH */
+.fourth {
+    display: flex;
+}
+
+.footer-forth {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.quick-links {
+    color: #F7CF4C;
+    font-family: "Londrina Solid";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-link {
+    color: #F2F2F2;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.links-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    }
+
+.font1 {
+    color: #FFF;
+    font-family: "Londrina Solid";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
