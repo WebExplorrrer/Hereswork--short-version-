@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Font for headings */
+.font1 {
+    font-family: 'Londrina Solid', cursive;
+}
+
+/* Font for paragraphs */
+.font2 {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* NAV BAR START HERE */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 88px;
+    background-color: #272630;
+}
+
+/* STYLE FOR LOGO TEXT */
+.logo-text {
+    display: flex;
+    align-items: center;
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    font-size: 24px;
+    gap: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+
+/* STYLE FOR NAV LINKS */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    color: #445DD8;
+}
+/* NAV BAR ENDS HERE */
+
+/* HERO SECTION STARTS HERE */
+.hero-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: #F7CF4C;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.sub-hero-text{
+    color: #48474B;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.hero-text {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* CONTACT SECTION STARTS HERE */
+/* GET IN TOUCH HERO GROUP */
+.styled-line {
+    border: none;
+    border-top: 2px solid #445DD8;
+    margin: 20px 0;
+    width: 117px;
+}
+
+.get-in-touch-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.get-text-group{
+    color: #445DD8;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.contact-for-query {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-heading-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+/* }SECOND SECTION STARTS HERE */
+ .main-grouping-all {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    padding-right: 88px;
+    padding-left: 88px;
+ }
+
+
+.left-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 56px;
+}
+
+/* LEFT SIDE FOR INPUTS */
+form div label {
+    color: #667085;
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+
+form div input  {
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    background: #FFF;
+    box-shadow: 3px 3px 0px 0px #191919;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    resize: vertical;
+    border: 2px solid var(--Stroke, #191919);
+    background: #FFF;
+    box-shadow: 3px 3px 0px 0px #191919;
+    padding: 16px;
+}
+
+.message-button {
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--Stroke, #191919);
+    background: #445DD8;
+    box-shadow: 3px 3px 0px 0px #191919;
+    color: white;
+    text-decoration: none;
+}
+/* here for button group */
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 46%;
+}
+
+.input-group > *{
+    width: 100%;
+}
+
+/* RIGHT SIDE STARTS HERE */
+.right-side-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 46%;
+}
+
+.right-text {
+    color: #667085;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+} 
+
+/* THE GROUPS START HERE */
+.information-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.address-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 3%;
+    align-self: stretch;
+}
+
+.address-text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5%;
+}
+
+.address-heading {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.address-sub-text {
+    color: #667085;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* FIRST GROUP ENDS HERE */
+
+/* SECOND GROUP STARTS HERE */
+.email-number-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 3%;
+    align-self: stretch;
+}
+
+.email-text-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5%;
+}
+
+.email-heading {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email-sub-text {
+    color: #667085;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* THIRD GROUP STARTS HERE */
+.phone-number-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 3%;
+    align-self: stretch;
+}
+
+.phone-text-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5%;
+}
+
+.phone-heading {
+    color: #141414;
+    font-family: "Londrina Solid";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phone-sub-text {
+    color: #667085;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* FOOTER */
+/* FIRST */
+.footer {
+    display: flex;
+    padding: 32px 88px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #272630;
+    }
+
+.footer-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.made-love {
+    color: #F2F2F2;
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.copyrights {
+    color: #F2F2F2;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+/* SECOND */
+.footer-second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.follow-second {
+    color: #F7CF4C;
+    font-family: "Londrina Solid";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* THIRD */
+    .footer-third {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.get-in-touch {
+    color: #F7CF4C;
+    font-family: "Londrina Solid";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.email-address {
+    color: #F2F2F2;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* FOURTH */
+.fourth {
+    display: flex;
+}
+
+.footer-forth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.quick-links {
+    color: #F7CF4C;
+    font-family: "Londrina Solid";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-link {
+    color: #F2F2F2;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.links-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.font1 {
+    color: #FFF;
+    font-family: "Londrina Solid";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -40,7 +40,9 @@ body {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1px;
+    text-decoration: none;
 }
+
 
 /* STYLE FOR NAV LINKS */
 .nav-links {
@@ -811,11 +813,12 @@ gap: 8px;
     gap: 4px;
     }
 
-.font1 {
+.hereswork-hero-text {
     color: #FFF;
     font-family: "Londrina Solid";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
 }
