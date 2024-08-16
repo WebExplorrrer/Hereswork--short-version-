@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/4bb50c2001.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/about.css" />
-    <link rel="shortcut icon" href="/timi's assets/Logo.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/timi's assets/Logo.png"
+      type="image/x-icon"
+    />
     <title>About | Hereswork</title>
   </head>
   <body>
 
+    <!-- Desktop header -->
     <header>
       <article class="logo">
-        <a href="./index.html"><img src="./timi's assets/Logo.png" alt="Hereswork Logo" title="Hereswork"/></a>
-        <p><a href="./index.html">Hereswork</a></p>
+        <a href="./index.html"
+          ><img
+            src="./timi's assets/Logo.png"
+            alt="Hereswork Logo"
+            title="Hereswork"
+        /></a>
+        <span><a href="./index.html">Hereswork</a></span>
       </article>
-
+      <!-- Navigation bar -->
       <article class="nav-bar">
         <a href="/index.html" class="nav-link">Home</a>
         <a href="/about.html" class="nav-link active">About</a>
-        <a href="/skills.html" class="nav-link ">Skills</a>
+        <a href="/skills.html" class="nav-link">Skills</a>
         <a href="/contact.html" class="nav-link">Contact</a>
       </article>
     </header>
 
     <main>
-<!-- Hero section -->
+      <!-- Hero section -->
       <section class="hero-sec">
         <h1>About</h1>
         <p>
@@ -32,46 +43,145 @@
         </p>
       </section>
 
-<!-- Learn About Us section -->
+      <!-- Learn About Us (LAU) section -->
       <section class="lau-sec">
         <div class="lau-sec-left">
-          <img src="./timi's assets/about-image.png" alt="Illustration" title="Illustration"/>
+          <img
+            src="./timi's assets/about-image.png"
+            alt="Illustration"
+            title="Illustration"
+          />
         </div>
 
-<!-- Div containing text in the LAU section -->
+        <!-- Div containing text in the LAU section -->
         <div class="lau-sec-right">
-            <div class="lau-sec-superscript">
-                <p>Learn About Us</p><hr>
+          <div class="lau-sec-superscript">
+            <p>Learn About Us</p>
+            <hr />
+          </div>
+
+          <h2>About us</h2>
+
+          <p class="lau-sec-text">
+            We offer a wide range of courses from different companies and books
+            covering a broad range of topics, from business and leadership to IT
+            and programming, as well as soft skills like communication,
+            problem-solving.
+          </p>
+
+          <div class="lau-services">
+            <div class="lau-services-thumb">
+              <img
+                src="./timi's assets/about-thumb.png"
+                alt="Illustration"
+                title="Illustration"
+              />
             </div>
 
-            <h2>About Us</h2>
-
-            <p class="lau-sec-text"></p>
-
-            <div class="lau-services">
-                <div class="lau-services-thumb"><img src="./timi's assets/about-thumb.png" alt="Illustration" title="Illustration">
+            <div class="lau-services-text">
+              <div class="lau-service-group">
+                <div class="lau-service">
+                  <img src="./timi's assets/Check.png" alt="check icon" />
+                  <p>Online Courses</p>
                 </div>
-
-                <div class="lau-services-text">
-                    <div class="lau-service">
-                        <img src="./timi's assets/Check.png" alt="check icon">
-                        <p>Online Courses</p>
-                    </div>
-                    <div class="lau-service">
-                        <img src="./timi's assets/Check.png" alt="check icon">
-                        <p>Certificate</p>
-                    </div>
-                    <div class="lau-service">
-                        <img src="./timi's assets/Check.png" alt="check icon">
-                        <p>Programs</p>
-                    </div>
+                <hr />
+              </div>
+              <div class="lau-service-group">
+                <div class="lau-service">
+                  <img src="./timi's assets/Check.png" alt="check icon" />
+                  <p>Certificate</p>
                 </div>
+                <hr />
+              </div>
+              <div class="lau-service-group">
+                <div class="lau-service">
+                  <img src="./timi's assets/Check.png" alt="check icon" />
+                  <p>Programs</p>
+                </div>
+                <hr />
+              </div>
             </div>
-            <button title="Read More">Read More</button>
+          </div>
+          <button title="Read More">Read More</button>
+        </div>
+      </section>
+
+      <!--Our Core Values (OCV) Section -->
+      <section class="ocv-sec">
+        <div class="ocv-sec-superscript">
+          <p>Our core values</p>
+          <hr />
+        </div>
+
+        <h2>Guiding principles that shape our mission</h2>
+
+        <div class="ocv-principles">
+          <div>Practicality</div>
+          <div>Integrity</div>
+          <div>Empowerment</div>
+          <div>Quality</div>
+          <div>Transparency</div>
+          <div>Innovation</div>
+          <div>Continuous Learning</div>
+          <div>Inclusivity</div>
+        </div>
+      </section>
+
+      <!-- Our Team (OT) Section -->
+      <section class="ot-sec">
+        <div class="ot-sec-superscript">
+          <p>Our team</p>
+          <hr />
+        </div>
+
+        <h2>Meet our team</h2>
+
+        <div class="teammates">
+          <div class="teammate-info">
+            <div class="teammate-thumb"><img src="/timi's assets/WebXplorra.jpg" alt="team member's picture" /></div>
+            <p class="teammate-name">WebXplorra</p>
+            <p class="teammate-role">Frontend Developer</p>
+          </div>
+          <div class="teammate-info">
+            <div class="teammate-thumb"><img src="/timi's assets/Joygirl.png" alt="team member's picture" /></div>
+            <p class="teammate-name">Joygirl</p>
+            <p class="teammate-role">UI/UX Designer & Frontend Developer</p>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer>Made with love ❤️❤️</footer>
+    <!-- Footer for Desktop View -->
+    <footer class="dfooter">
+      <!-- First footer column -->
+      <div class="dfooter-col">
+        <div class="logo">
+          <a href="./index.html"
+            ><img
+              src="./timi's assets/Logo.png"
+              alt="Hereswork Logo"
+              title="Hereswork"
+          /></a>
+          <span><a href="./index.html">Hereswork</a></span>
+        </div>       
+        <p class="footer-comment">Made with love❤️</p>
+        <p>&copy;hereswork</p>
+      </div>
+      <!-- Second footer column -->
+      <div class="dfooter-col">
+        <h5>Follow us on social media</h5>
+        <div class="socials">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <!-- Third footer column -->
+      <div class="dfooter-col">
+        <h5>Get In Touch</h5>
+        <a href="mailto:hereswork@gmail.com?cc=hijoygirl@gmail.com&bcc=timiajofficial@gmail.com&subject=Subject%20Line&body=Your%20message%20here"><p>hereswork@gmail.com</p></a>
+      </div>
+    </footer>
   </body>
 </html>

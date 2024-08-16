@@ -1,11 +1,18 @@
+/* Google Fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Londrina+Solid:wght@100;300;400;900&display=swap");
+
+:root {
+  --shadow: 3px 3px 0 0 #141414;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     overflow-x: hidden;
-}
-a{
-    text-decoration: none;
-}
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+  }
+
+  /* The styling for the header, hero section and footer were lifted from the about.css file */
