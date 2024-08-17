@@ -14,5 +14,54 @@ body {
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
   }
+  .lau-sec{
+    display: block;
+  }
+  .tips{
+    margin-top: 5%;
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .tips > *{
+    width: 47%;
+  }
+  .tips-img{
+    width: 50%;
+  }
+  .tips-img img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .tip{
+    width: 45%;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    background-color: #445DD8;
+    padding: 2% 4%;
+    border: solid 2px #FFFFFF;
+    box-shadow: var(--shadow);
+    margin-bottom: 3%;
+    color: #FFFFFF;
+  }
+  .tips .two{
+    width:55%;
+  }
+  .tips .three{
+    width:65%;
+  }
+  .tips .four{
+    width:75%;
+  }
+  .tips .five{
+    width:85%;
+  }
+  .tips .six{
+    width:95%;
+  }
 
   /* The styling for the header, hero section and footer were lifted from the about.css file */
